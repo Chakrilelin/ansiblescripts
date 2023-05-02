@@ -1,0 +1,11 @@
+---
+  - name: message
+    hosts: all
+    tasks:
+     - name: display below messages
+       debug: msg='welcom to varains'	 
+		
+		     ( or ) CASE-2 
+	 - name: display below message
+       debug:
+         msg:'welcom to varains'	
