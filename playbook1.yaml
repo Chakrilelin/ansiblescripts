@@ -1,0 +1,7 @@
+---
+ - name: veribles
+   hosts: all
+   tasks:
+    - name: desplay facts
+      debug:
+        msg: "{{ansible_default_ipv4.address}}"
